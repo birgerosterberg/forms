@@ -14,16 +14,18 @@ body {
 /* Is this okay or should i have a container to put the body things in? */
 .form {
     background-color: #ffce03;
+    text-align: center;
     width: 380px;
     border-style: outset;
-    border-color: red;
+    border-color: #c78023;
     border-width: 5px;
     border-radius: 5px;
     padding: 20px;
 }
+
 .form button {
     background-color: #ffce03;
-    border-color: red;
+    border-color: #c78023;
     font-size: large;
     font-family: 'Bungee Spice', cursive;
     width: 180px;
@@ -33,15 +35,38 @@ body {
     margin-left: 4px;
 }
 
-.headtext {
-    text-align: center;
+.form button:hover {
+    background-color: #efb261;
+}
+.textstylish {
     font-family: 'Bungee Spice', cursive;
 }
-
-.form-in {
+.boxstyle {
     background-color: #fd9a01;
-    border-color: red;
     width: 350px;
     padding: 10px;
     margin: 5px;
+    margin-bottom: 15px;
+    border-style: outset;
+    border-color: #c78023;
+    border-width: 2px;
+}
+.boxstyle:hover {
+    background-color: #ffce03;
+}
+.boxstyle:focus {
+    background-color: #ffce03;
+    color: red;
+    outline-color: red;
+    outline-style: solid;
+}
+.pimpmy--list {
+    margin-bottom: 15px;
+}
+::placeholder {
+    color: #c35817;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+textarea {
+    resize: none;
 }
