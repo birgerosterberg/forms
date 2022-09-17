@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Normalize CSS! -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <!-- My own stylesheet! -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+    <title>Forms</title>
+</head>
+<body>
+    <main class="mainbox">
+        <form class="form" autocomplete="off">
+            <h1 class="headtext">Save the Trees!</h1>
+            <h3 class="headtext">Sign our petiton <br> as a reward we plant a tree of your choice!</h3>
+            <input type="text" id="name" name="name" class="form-in" placeholder="Enter your name here.">
+            <input type="email" id="email" name="email" class="form-in" placeholder="Enter your E-Mail here." required>
+            <input type="password" id="password" name="password" class="form-in" placeholder="Enter the 4 digit pincode!" required minlength="4" maxlength="4" inputmode="numeric">
+            <div>
+                <button type="submit">Submit</button><button type="reset">Reset</button>
+            </div>
+        </form>
+    </main>
+    
+</body>
+</html>

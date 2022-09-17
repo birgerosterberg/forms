@@ -1,0 +1,45 @@
+body {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    background-image: url(/images/background_forest.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    height: 100%;
+    margin: auto;
+}
+
+.mainbox {
+    display: flex;
+    justify-content: center;
+    direction: column;
+    background-color: #ffce03;
+    height: 100%;
+    width: 380px;
+    border-style: outset;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.mainbox button {
+    background-color: #fd9a01;
+    border-color: red;
+    width: 180px;
+    height: 30px;
+    margin-top: 10px;
+    margin-right: 6px;
+    margin-left: 4px;
+}
+
+.headtext {
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+}
+.form-in {
+    background-color: #fd9a01;
+    border: none;
+    width: 360px;
+    padding: 5px;
+    margin: 5px;
+}
