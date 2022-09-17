@@ -22,31 +22,35 @@ body {
     border-radius: 5px;
     padding: 20px;
 }
-
 .form button {
-    background-color: #ffce03;
+    background-color: #fd9a01;
     border-color: #c78023;
     font-size: large;
     font-family: 'Bungee Spice', cursive;
-    width: 180px;
+    width: 140px;
     height: 30px;
     margin-top: 10px;
     margin-right: 6px;
     margin-left: 4px;
+    border-radius: 5px;
 }
-
 .form button:hover {
-    background-color: #efb261;
+    background-color: #ffce03;
 }
 .textstylish {
     font-family: 'Bungee Spice', cursive;
 }
 .boxstyle {
     background-color: #fd9a01;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 700;
+    font-size: large;
+    color: #2a7e19;
     width: 350px;
+    height: 22px;
     padding: 10px;
     margin: 5px;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     border-style: outset;
     border-color: #c78023;
     border-width: 2px;
@@ -56,17 +60,28 @@ body {
 }
 .boxstyle:focus {
     background-color: #ffce03;
-    color: red;
-    outline-color: red;
+    color: #2a7e19;
+    outline-color: #fd9a01;
     outline-style: solid;
 }
 .pimpmy--list {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 ::placeholder {
     color: #c35817;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 textarea {
     resize: none;
 }
+.list {
+    color: #2a7e19;
+    text-align: center;
+    width: 92px;
+    height: 30px;
+    padding: 1px;
+    cursor: pointer;
+}
+.list::placeholder {
+    color: #c35817;
+}
+

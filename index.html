@@ -9,8 +9,8 @@
     <!-- My own stylesheet! -->
     <link rel="stylesheet" href="styles/styles.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
-    <!-- My amazing Fontawesome icons <3 -->
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Indie+Flower&display=swap" rel="stylesheet">
+        <!-- My amazing Fontawesome icons <3 -->
     <script src="https://kit.fontawesome.com/26aa5150aa.js" crossorigin="anonymous"></script>
     <title>Save the Trees</title>
 </head>
@@ -22,16 +22,16 @@
             <i class="fa-solid fa-tree fa-lg" style='color:#2a7e19' ></i>
             <h1 class="textstylish">Save the Trees!</h1>
             <h2 class="textstylish">Plant a Seed!</h2>
-            <h3 class="textstylish">Sign our petiton <br> as a reward we plant a tree of your choice!</h3>
+            <h3 class="textstylish">Sign our petiton against deforestation as a reward we plant a tree of <span style="font-size:xx-small">(almost)</span>your choice!</h3>
             <label for="name" class="textstylish">Full name:</label>
             <input type="text" id="name" name="name" class="boxstyle" placeholder="Enter your name here.">
             <label for="email" class="textstylish">Email Adress:</label>
             <input type="email" id="email" name="email" class="boxstyle" placeholder="Enter your E-Mail here." required>
-            <label for="password" class="textstylish">Enter your super secret 5 Digit postalcode!</label>
-            <input type="password" id="password" name="password" class="boxstyle" placeholder="Enter your 5 digit postcode!" required minlength="5" maxlength="5" inputmode="numeric">
+            <label for="password" class="textstylish">Enter your supersecret 5 digit postalcode!</label>
+            <input type="password" id="password" name="password" class="boxstyle" placeholder="Enter 5 digit postalcode!" required minlength="5" maxlength="5" inputmode="numeric">
             <div class="pimpmy--list" >
-                <label for="select" class="textstylish">Select your tree to plant!</label>
-                <select name="select" id="select" class="list">
+                <label for="list" class="textstylish">Select your tree to plant!</label>
+                <select name="list" id="list" class="list boxstyle">
                     <option value="Oak">Oak</option>
                     <option value="Birch">Birch</option>
                     <option value="Chestnut">Chestnut</option>
@@ -43,8 +43,10 @@
             <label for="message" class="textstylish">Write a message:</label>
             <textarea name="message" id="message" cols="30" rows="4" class="textarea boxstyle" placeholder="Talk your heart!"></textarea>
             <div>
-                <button type="submit">Submit</button><button type="reset">Reset</button>
+                <input type="checkbox" name="checkbox" id="checkbox" class="checkme">
+                <label for="checkbox" class="textstylish">Check this to get mail info on our projects!</label>
             </div>
+            <button type="submit">Submit</button><button type="reset">Reset</button>
         </form>
     </main>
     
