@@ -1,23 +1,24 @@
 body {
     box-sizing: border-box;
+    font-family: 'Bungee Spice', cursive;
     background-image: url(/images/background_forest.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    direction: column;
-    width: 100%;
-    height: 100vh;
+    flex-direction: column;
 }
 /* Is this okay or should i have a container to put the body things in? */
 .form {
     background-color: #ffce03;
     text-align: center;
-    width: 380px;
     border-style: outset;
     border-color: #c78023;
+    width: 380px;
     border-width: 5px;
     border-radius: 5px;
     padding: 20px;
@@ -36,9 +37,6 @@ body {
 }
 .form button:hover {
     background-color: #ffce03;
-}
-.textstylish {
-    font-family: 'Bungee Spice', cursive;
 }
 .boxstyle {
     background-color: #fd9a01;
@@ -67,6 +65,7 @@ body {
 .pimpmy--list {
     margin-bottom: 10px;
 }
+/* To color the placeholder text. */
 ::placeholder {
     color: #c35817;
 }
@@ -81,7 +80,7 @@ textarea {
     padding: 1px;
     cursor: pointer;
 }
-.list::placeholder {
-    color: #c35817;
+/* I like cursors :D */
+.checkme {
+    cursor: pointer;
 }
-

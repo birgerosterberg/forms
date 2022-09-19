@@ -12,43 +12,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Indie+Flower&display=swap" rel="stylesheet">
         <!-- My amazing Fontawesome icons <3 -->
     <script src="https://kit.fontawesome.com/26aa5150aa.js" crossorigin="anonymous"></script>
+
     <title>Save the Trees</title>
 </head>
 <body>
     <main>
         <form class="form" autocomplete="off">
-            <i class="fa-solid fa-tree fa-lg" style='color:#2a7e19'></i>
-            <i class="fa-solid fa-seedling fa-2xl" style='color:#2a7e19'></i>
-            <i class="fa-solid fa-tree fa-lg" style='color:#2a7e19' ></i>
-            <h1 class="textstylish">Save the Trees!</h1>
-            <h2 class="textstylish">Plant a Seed!</h2>
-            <h3 class="textstylish">Sign our petiton against deforestation as a reward we plant a tree of <span style="font-size:xx-small">(almost)</span>your choice!</h3>
-            <label for="name" class="textstylish">Full name:</label>
-            <input type="text" id="name" name="name" class="boxstyle" placeholder="Enter your name here.">
-            <label for="email" class="textstylish">Email Adress:</label>
-            <input type="email" id="email" name="email" class="boxstyle" placeholder="Enter your E-Mail here." required>
-            <label for="password" class="textstylish">Enter your supersecret 5 digit postalcode!</label>
-            <input type="password" id="password" name="password" class="boxstyle" placeholder="Enter 5 digit postalcode!" required minlength="5" maxlength="5" inputmode="numeric">
-            <div class="pimpmy--list" >
-                <label for="list" class="textstylish">Select your tree to plant!</label>
-                <select name="list" id="list" class="list boxstyle">
-                    <option value="Oak">Oak</option>
-                    <option value="Birch">Birch</option>
-                    <option value="Chestnut">Chestnut</option>
-                    <option value="Pinetree">Pinetree</option>
-                    <option value="Walnut">Walnut</option>
-                    <option value="Apple">Apple</option>
-                </select>
-            </div>
-            <label for="message" class="textstylish">Write a message:</label>
-            <textarea name="message" id="message" cols="30" rows="4" class="textarea boxstyle" placeholder="Talk your heart!"></textarea>
-            <div>
-                <input type="checkbox" name="checkbox" id="checkbox" class="checkme">
-                <label for="checkbox" class="textstylish">Check this to get mail info on our projects!</label>
-            </div>
+            <header>
+            <!-- Some nice Icons to start off the form! -->
+                <i class="fa-solid fa-tree fa-lg" style='color:#2a7e19'></i>
+                <i class="fa-solid fa-seedling fa-2xl" style='color:#2a7e19'></i>
+                <i class="fa-solid fa-tree fa-lg" style='color:#2a7e19' ></i>
+                <h1>Save the Trees!</h1>
+                <h2>Plant a Seed!</h2>
+                <h3>Sign our petiton against deforestation as a reward we plant a tree of <span style="font-size:xx-small">(almost)</span>your choice!</h3>
+            </header>
+            <section>
+                <!-- The Begining of the forms -->
+                <label for="name">Full name:</label>
+                <input type="text" id="name" name="name" class="boxstyle" placeholder="Enter your name here.">
+                <label for="email">Email Adress:</label>
+                <input type="email" id="email" name="email" class="boxstyle" placeholder="Enter your E-Mail here." required>
+                <label for="password">Enter your supersecret 5 digit postalcode!</label>
+                <input type="password" id="password" name="password" class="boxstyle" placeholder="Enter 5 digit postalcode!" required minlength="5" maxlength="5" inputmode="numeric">
+                <div class="pimpmy--list" >
+                    <label for="list">Select your tree to plant!</label>
+                    <select name="list" id="list" class="list boxstyle">
+                        <option value="Oak">Oak</option>
+                        <option value="Birch">Birch</option>
+                        <option value="Chestnut">Chestnut</option>
+                        <option value="Pinetree">Pinetree</option>
+                        <option value="Walnut">Walnut</option>
+                        <option value="Apple">Apple</option>
+                    </select>
+                </div>
+                <label for="message">Write a message:</label>
+                <textarea name="message" id="message" cols="30" rows="4" class="textarea boxstyle" placeholder="Talk your heart!"></textarea>
+                    <input type="checkbox" name="checkbox" id="checkbox" class="checkme" checked>
+                    <label for="checkbox">Check this to get Email info on our projects!</label>
+            </section>
             <button type="submit">Submit</button><button type="reset">Reset</button>
         </form>
-    </main>
-    
+    </main>    
 </body>
 </html>
